@@ -8,9 +8,7 @@ class oandaAPI {
         $ch = curl_init("https://api-sandbox.oanda.com/accounts/" . $accountNumber);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-
         $result = curl_exec($ch);
-        $result = $result;
         $result = json_decode($result, true);
 
         $this->accountId = $result['accountId']; 
@@ -32,7 +30,6 @@ class oandaAPI {
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
         $result = curl_exec($ch);
-        $result = $result;
         $result = json_decode($result, true);
         $this->openTrade = $result['trades'];
     }
