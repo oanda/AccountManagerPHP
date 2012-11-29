@@ -22,6 +22,14 @@ body {
 	background-color: white;
 }
 
+#generateAccount {
+	float: left;
+	color: #398fb6;
+	text-decoration: underline;
+	margin-right: 5px;
+	padding-top:2px;
+}
+
 #mainContainer {
     display: block;
     width: 1024px;

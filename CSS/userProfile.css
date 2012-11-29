@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	margin: 0;
+}
+
+body {
+    background-color: #DFDFDF;
+}
+
+#accountBox {
+	width: 1024px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font: 12px Tahoma;
+	text-align: right;
+}
+
+#accountBox input[type="text"], #accountBox button {
+	border: 2px solid #CCCCCC;
+	padding: 2px 5px;
+	background-color: white;
+}
+
+#generateAccount {
+	float: left;
+	color: #398fb6;
+	text-decoration: underline;
+	margin-right: 5px;
+	padding-top:2px;
+}
+
+#mainContainer {
+    display: block;
+    width: 1024px;
+    margin: 0 auto;
+    border: 2px solid #CCCCCC;
+    padding-bottom: 40px;
+}
+
+#tableHeader {
+    font: 30px Tahoma;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+#openTrade {
+	width: 90%;
+	float: left;
+	margin-left: 5%;
+	background-color: #DFDFDF;
+}
+
+#openTradeTitle {
+	font: 16px Tahoma;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.openTradeListing {
+	display: block;
+	padding: 5px 0px;
+	margin-bottom: 10px;
+	border: 2px solid #CCCCCC;
+}
+
+.openTradeListing label {
+	display: block;
+	width: 20%;
+	float: left;
+	margin: 0 10px;
+	font: 14px Tahoma;
+}
+
+.username {
+	float: left;
+}
+
+.openTradeListing label.tradeId {
+	float: left;
+	margin-bottom: 5px;
+}
+
+.outputTitle {
+    width: 45%;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+    font: 15px Tahoma;
+    line-height: 30px;
+}
+
+.outputRow {
+    float: left;
+    width: 45%;
+    height: 30px;
+    display: block;
+    letter-spacing: 1px;
+    font: 15px Tahoma;
+    line-height: 30px;
+}
+
+.clear {
+    clear: both;
+}

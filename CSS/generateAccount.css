@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #dfdfdf;
+}
+
+#mainContainer {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 60px 0;
+}
+
+#headerTitle {
+	font: 30px Helvetica;
+	display: block;
+	font-weight: bold;
+	color:#616161;
+	margin-bottom: 60px;
+}
+
+#disclaimerText {
+	display: block;
+	width: 50%;
+	margin-left: 25%;
+	color:#808080;
+}
+
+.generateButton {
+	text-align: center;
+	display: block;
+	width: 482px;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	background: #d83842;
+	border: 1px solid #840505;
+	text-decoration: none;
+	color: white;
+	font: 16px Tahoma;
+	margin-left: 256px;
+}
+
+.generateButton:hover {
+	background: #c12c36;
+}
+
+.accountSearchButton {
+	text-align: center;
+	display: block;
+	width: 482px;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	background: #d8a030;
+	border: 1px solid #815000;
+	text-decoration: none;
+	color: white;
+	font: 16px Tahoma;
+	margin-left: 256px;
+}
+
+.accountSearchButton:hover {
+	background: #ab7b1c;
+}
+
+.userSearchButton {
+	text-align: center;
+	display: block;
+	width: 482px;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	background: #00c812;
+	border: 1px solid #169603;
+	text-decoration: none;
+	color: white;
+	font: 16px Tahoma;
+	margin-left: 256px;
+}
+
+.userSearchButton:hover {
+	background: #10b11d;
+}
+
+#disclaimerText {
+	display: block;
+	margin-top: 60px;
+}
+
+.disabled {
+	text-align: center;
+	display: block;
+	width: 482px;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	background: #6f6f6f;
+	border: 1px solid #323232;
+	text-decoration: none;
+	color: white;
+	font: 16px Tahoma;
+	margin-left: 256px;
+}
+
+.disabled:hover {
+	cursor: default;
+}
+
+
+.clear {
+	clear: both;
+}
