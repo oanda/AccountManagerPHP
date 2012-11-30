@@ -1,11 +1,12 @@
 Introduction
 ====================
-AccountSearchPHP is a basic working OANDA Account information search tool. It's purpose is to showcase some of the OANDA API features and give PHP developers a quick start.
+AccountManagerPHP is a basic working OANDA Account information search tool. It's purpose is to showcase some of the OANDA API features and give PHP developers a quick start.
 
 Screenshots
 ====================
-![Initial screen](https://raw.github.com/znli/AccountSearchPHP/master/Resources/demo1.png)
-![Initial screen](https://raw.github.com/znli/AccountSearchPHP/master/Resources/demo2.png)
+![Landing Page](https://raw.github.com/znli/AccountManagerPHP/master/Resources/demo1.png)
+![Account Information](https://raw.github.com/znli/AccountManagerPHP/master/Resources/demo2.png)
+![User Profile](https://raw.github.com/znli/AccountManagerPHP/master/Resources/demo3.png)
 
 Requirements
 ====================
@@ -20,7 +21,7 @@ I highly recommend XAMPP for those who do not have the time or knowledge to inst
 
 Instructions
 ====================
-Add the folder AccountSearchPHP to your (local)server root and navigate to https://localhost/AccountSearchPHP.
+Add the folder AccountManagerPHP to your (local)server root and navigate to https://localhost/AccountManagerPHP.
 
 Questions
 ====================
