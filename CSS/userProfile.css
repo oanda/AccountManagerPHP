@@ -1,6 +1,6 @@
 * {
 	margin: 0;
-	margin: 0;
+	padding: 0;
 }
 
 body {
@@ -24,18 +24,26 @@ body {
 
 #generateAccount {
 	float: left;
-	color: #398fb6;
+	color: #2d85ae;
 	text-decoration: underline;
 	margin-right: 5px;
 	padding-top:2px;
 }
 
+a {
+	color: #2d85ae;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
 #mainContainer {
     display: block;
     width: 1024px;
+    min-height: 700px;
     margin: 0 auto;
     border: 2px solid #CCCCCC;
     padding-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 #tableHeader {
@@ -67,19 +75,18 @@ body {
 
 .openTradeListing label {
 	display: block;
-	width: 20%;
+	width: 22%;
 	float: left;
 	margin: 0 10px;
-	font: 14px Tahoma;
 }
 
-.username {
-	float: left;
-}
-
-.openTradeListing label.tradeId {
-	float: left;
-	margin-bottom: 5px;
+.username {	
+	font: 16px Tahoma;
+	font-weight: bold;
+	width: 97% !important;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 10px !important;
+	padding-bottom: 5px;
 }
 
 .outputTitle {
