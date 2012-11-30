@@ -4,9 +4,9 @@ AccountManagerPHP is a basic working OANDA Account information search tool. It's
 
 Screenshots
 ====================
-![Landing Page](https://raw.github.com/znli/AccountManagerPHP/master/Resources/demo1.png)
-![Account Information](https://raw.github.com/znli/AccountManagerPHP/master/Resources/demo2.png)
-![User Profile](https://raw.github.com/znli/AccountManagerPHP/master/Resources/demo3.png)
+![Landing Page](https://raw.github.com/oanda/AccountManagerPHP/master/Resources/demo1.png)
+![Account Information](https://raw.github.com/oanda/AccountManagerPHP/master/Resources/demo2.png)
+![User Profile](https://raw.github.com/oanda/AccountManagerPHP/master/Resources/demo3.png)
 
 Requirements
 ====================
