@@ -70,7 +70,7 @@ date_default_timezone_set("America/Toronto");
 			            echo "<span class='openTradeListing'>";
 			            echo "<label class='username'>Username: ".$inputFromUser."</label><br />"; 
 			            echo "<div class='clear'></div>";
-			            echo "<label class='userId'>User ID: <a href='./accountInfo.php?accountId=".$element['id']."'>".$element['id']."</a></label>";
+			            echo "<label class='accountId'>Account ID: <a href='./accountInfo.php?accountId=".$element['id']."'>".$element['id']."</a></label>";
 			            echo "<label class='instrument'>Name: ".$element['name']."</label>";
 			            echo "<label class='units'>Home Currency: ".$element['homecurr']."</label>";
 			            echo "<label class='direction'>Margin Rate: ".$element['marginRate']."</label>";
