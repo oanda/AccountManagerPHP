@@ -23,6 +23,9 @@ if(isset($inputFromUser)) {
 } else if(isset($get)) {
 	$api->retrieveUserProfile($get);
 }
+
+date_default_timezone_set("America/Toronto");
+
 ?>
 
 <html>
@@ -55,12 +58,11 @@ if(isset($inputFromUser)) {
             <div id="openTrade">
             	<div id="openTradeTitle">Accounts</div>
             	<?php
-	            if(!is_array($api->userProfile)) {
+            	if(!isset($post) && !isset($get)) {
+            		echo "Please enter a username to begin.";
+            	} else if(array_key_exists("code", $api->userProfile)) {
 		            echo "Please enter a valid username!";
-	            } else {
-		            date_default_timezone_set("America/Toronto");
-		            echo "array or not? ".var_dump($a);
-		            if(is_array($api->userProfile) && !isset($api->userProfile['code'])) {
+	            } else if(is_array($api->userProfile) && !isset($api->userProfile['code'])) {
 		            foreach($api->userProfile as $element) {
 			            echo "<span class='openTradeListing'>";
 			            echo "<label class='username'>Username: ".$inputFromUser."</label>";
@@ -71,7 +73,6 @@ if(isset($inputFromUser)) {
 			            echo "<label class='direction'>Margin Rate: ".$element['marginRate']."</label>";
 			            echo "<div class='clear'></div>";
 			            echo "</span>";
-		            }
 		            }
 	            }
 	            ?>

@@ -42,7 +42,7 @@ class oandaAPI {
 	    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 	    $result = curl_exec($ch);
-	    $result = json_decode($result, false);
+	    $result = json_decode($result, true);
 	    
 	    $this->userProfile = $result;
     }
