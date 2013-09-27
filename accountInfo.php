@@ -36,7 +36,7 @@ if(isset($inputFromUser)) {
         <script src="./Javascript/alertify.js/lib/alertify.js"></script>
         <script src="./Javascript/generateAccount.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script src="https://raw.github.com/oanda/oandajs/master/oanda.js"></script>
+        <script src="http://developer.oanda.com/oandajs/oanda.js"></script>
     </header>
 
     <body>

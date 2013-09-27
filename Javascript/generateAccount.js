@@ -19,7 +19,7 @@ function getAccountId(username) {
 */
 
 function generateNewAccount() {
-	OANDA.account.register( function(regResponse) {
+	OANDA.account.register( 'USD', function(regResponse) {
 		username = regResponse.username;
 		password = regResponse.password;
 		accountId = regResponse.accountId;
